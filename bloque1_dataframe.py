@@ -17,5 +17,5 @@ print(df.shape)
 print('--- Tipo de dato de cada columna ---')
 print(df.dtypes)
  
-print('--- Estadisticas basicas ---')
-print(df.describe())
+print('--- Estadísticas básicas ---')
+print(df.describe().round(2))
