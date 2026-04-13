@@ -16,7 +16,7 @@ promedio_temp=df.groupby('reactor')['temperatura'].mean()
 
 plt.figure(figsize=(7,4))
 
-plt.bar(promedio_temp.index,promedio_temp.values,color='blue')
+plt.bar(promedio_temp.index,promedio_temp.values,color='steelblue')
 
 plt.title('Temperatura promedio por reactor')
 plt.xlabel('Reactor')
@@ -26,7 +26,7 @@ plt.show()
 
 #Ejemplo 3.2
 plt.figure(figsize=(7,4))
-plt.scatter(df['temperatura'],df['eficiencia'],color='orange',s=80)
+plt.scatter(df['temperatura'],df['eficiencia'],color='coral',s=80)
 plt.title('Temperatura vs Eficiencia')
 plt.xlabel('Temperatura (C)')
 plt.ylabel('Eficiencia (%)')
